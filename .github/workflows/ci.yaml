@@ -1,9 +1,6 @@
 name: ci
 on:
-  pull_request:
-  push:
-    branches:
-      - master
+  workflow_dispatch:
 permissions:
   # Sets permission policy for `GITHUB_TOKEN`
   contents: read
